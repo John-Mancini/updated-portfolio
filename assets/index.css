@@ -1,0 +1,179 @@
+* {
+  /* outline: 1px dotted red; */
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.bgTeal {
+  background-color: #17a2b8;
+}
+body {
+  margin: 0;
+}
+.nav {
+  height: 85px;
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 5px solid #235e80;
+}
+.nav a {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white !important;
+}
+a {
+  color: white;
+}
+
+.nav a:hover {
+  color: black !important;
+  background-color: white;
+}
+
+.hero {
+  height: 436px;
+  width: 100%;
+  background-color: #d4aa7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #235e80;
+}
+.justified {
+  text-align: justify;
+}
+
+.jaggedEdge {
+  height: 10px;
+  width: 100%;
+  background-image: url(
+    data:image/svg + xml;charset=utf-8,
+    %3Csvgwidth="1139"height="5"fill="none"xmlns="http://www.w3.org/2000/svg"%3E%3Cgclip-path="url(%23clip0)"%3E%3Cpathd="M0 0h1139v5H0z"/%3E%3Cpathd="M1123.88 4.74L1116.46 0l-7.37 4.74-7.37-4.74-7.37 4.74-7.37-4.74-7.43 4.74-7.37-4.74-7.37 4.74-7.36-4.74-7.37 4.74-7.37-4.74-7.43 4.74-7.37-4.74-7.37 4.74-7.37-4.74-7.37 4.74L998.375 0l-7.369 4.74L983.637 0l-7.369 4.74L968.899 0l-7.428 4.74L954.102 0l-7.369 4.74L939.364 0l-7.369 4.74L924.567 0l-7.369 4.74L909.829 0l-7.369 4.74L895.091 0l-7.429 4.74L880.293 0l-7.369 4.74L865.555 0l-7.369 4.74L850.758 0l-7.369 4.74L836.02 0l-7.369 4.74L821.282 0l-7.428 4.74L806.485 0l-7.369 4.74L791.747 0l-7.369 4.74L776.95 0l-7.369 4.74L762.212 0l-7.369 4.74L747.474 0l-7.429 4.74L732.677 0l-7.369 4.74L717.939 0l-7.369 4.74L703.141 0l-7.369 4.74L688.403 0l-7.369 4.74L673.665 0l-7.428 4.74L658.868 0l-7.369 4.74L644.13 0l-7.369 4.74L629.333 0l-7.369 4.74L614.595 0l-7.369 4.74L599.857 0l-7.369 4.74L585.06 0l-7.369 4.74L570.322 0l-7.369 4.74L555.584 0l-7.072 4.852-7.369-4.74-7.369 4.74-7.428-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.429 4.74-7.368-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.429-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.428 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.428-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.428 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.429-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.368-4.74-7.429 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.428-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.428-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.428 4.74-7.369-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.429-4.74-7.369 4.74-7.369-4.74-7.369 4.74-7.368-4.74-7.429 4.74-7.369-4.74-7.369 4.74L54.02.112l-7.369 4.74-7.428-4.74-7.37 4.74-7.368-4.74-7.369 4.74L9.746.112l-7.428 4.74L0 3.33v405.398l2.318-1.467L9.746 412l7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.428-4.74 7.37 4.74 7.368-4.74 7.37 4.74 7.368-4.74 7.428 4.74 7.37-4.74 7.368 4.74 7.369-4.74 7.369 4.74 7.429-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.428 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.428 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.428-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.429 4.74 7.368-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.429-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.428 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.428-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.428 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.429-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.368-4.74 7.429 4.74 7.369-4.74 7.369 4.74 7.369-4.74 7.369 4.74 7.428-4.74 7.369 4.74 7.369-4.74 7.072 4.627 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.428-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.428-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.428 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.429-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.368-4.739 7.429 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.428-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.428 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.428-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.429 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.428-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.428 4.739 7.369-4.739 7.369 4.739 7.369-4.739 7.369 4.739 7.425-4.739 7.37 4.739 7.37-4.739 7.37 4.739 7.37-4.739 7.43 4.739 7.37-4.739 7.37 4.739 7.36-4.739 7.37 4.739 7.37-4.739 7.43 4.739 7.37-4.739 7.37 4.739 7.37-4.739 7.37 4.739 7.42-4.739 7.37 4.739 7.37-4.739 2.38 1.523V3.216l-2.38 1.524-7.37-4.74-7.37 4.74z"fill="%231A110C"/%3E%3C/g%3E%3Cdefs%3E%3CclipPathid="clip0"%3E%3Cpathd="M0 0h1139v5H0z"/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E
+  );
+}
+
+h1 {
+  font-size: 6rem;
+}
+h4 {
+  font-size: 3rem;
+}
+
+.contactMe {
+  background-color: #d4aa7d;
+  display: flex;
+}
+.info,
+.message {
+  width: calc(50% - 40px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info p {
+  font-size: larger;
+}
+.message input {
+  width: 94.5%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.message button {
+  width: 94.5%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: #272727;
+  border-style: solid;
+  border-width: 10px;
+}
+.card h3 {
+  color: black;
+  margin: 10px;
+}
+.work,
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  /* text-decoration: underline; */
+  border-bottom: #235e80 5px solid;
+  /* font-family: ; */
+  font-size: 4rem;
+  position: relative;
+}
+.sectionOne {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.sectionOne > * {
+  width: 50%;
+  max-width: 400px;
+}
+.headShot {
+  border-radius: 50%;
+  border-color: #235e80;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.aboutMe::after {
+  content: "About Me";
+  position: absolute;
+  z-index: -1;
+  transform: scale(1.3);
+  color: #f1ebe5;
+}
+
+a:visited {
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .hiddenOnMobile {
+    display: none;
+  }
+  .info {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .hiddenOnDesktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 632px) {
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/4038092796.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav hiddenOnMobile">
+      <a href="#aboutMe">About Me</a>
+      <a href="#work">My Work</a>
+      <a href="assets/files/Resume.pdf" target="_blank">Resume</a>
+      <a href="#contactMe">Contact Me</a>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark hiddenOnDesktop">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="assets/files/Resume.pdf" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contactMe">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>John Mancini</h1>
+      <h4>Fullstack Developer</h4>
+    </section>
+    <div class="jaggedEdge"></div>
+    <section class="sectionOne">
+      <div class="leftSide">
+        <h2 class="aboutMe" id="aboutMe">About Me</h2>
+        <p class="justified">
+          I'm John Mancini, I'm an aspiring developer & programmer looking for a
+          job in the programming field as a software developer. I have an
+          associates degree in Business Administarion. I graduated from Ocean
+          County College and am now on a new journey to becoming a software
+          developer My goal is to focus more on Mobile development and program
+          new and apps for all mobile devices. I'm devoted to the tech industry
+          and am willing to learn as much as possible.
+        </p>
+      </div>
+      <img class="headShot hiddenOnMobile" src="/assets/images/headshot.jpg" />
+    </section>
+    <section>
+      <h2 class="work" id="work">Work</h2>
+      <div class="gallery">
+        <a
+          href="https://john-mancini.github.io/employee-directory/"
+          target="_blank"
+        >
+          <div
+            class="card bgTeal"
+            style="background-image: url(/assets/images/employee-directory.png)"
+          >
+            <h3 class="cardTitle">Employee Directory</h3>
+          </div>
+        </a>
+        <a href="https://john-mancini.github.io/weather-api/" target="_blank">
+          <div
+            class="card"
+            style="background-image: url(/assets/images/weather-api.png)"
+          >
+            <h3 class="cardTitle">Weather-API</h3>
+          </div>
+        </a>
+        <a
+          href="https://workout-tracker-john-mancini.herokuapp.com/"
+          target="_blank"
+        >
+          <div
+            class="card"
+            style="background-image: url(/assets/images/workout-tracker.png)"
+          >
+            <h3 class="cardTitle">Workout Tracker</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="contactMe" id="contactMe">
+      <div class="info">
+        <h2 class="contactMe">Contact Me</h2>
+
+        <p>
+          <a
+            ><i class="far fa-envelope"></i> Email: Mancinijohn5988@gmail.com</a
+          >
+        </p>
+        <p>
+          <a><i class="fab fa-github"></i> GitHub: John-Mancini</a>
+        </p>
+        <p>
+          <a><i class="fab fa-linkedin"></i> LinkedIn: John Mancini</a>
+        </p>
+      </div>
+      <div class="message hiddenOnMobile">
+        <h2>Message Me</h2>
+        <form>
+          <input placeholder="Name" />
+          <input placeholder="Email" />
+          <input placeholder="Subject" />
+          <input placeholder="Message" />
+          <button>Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
